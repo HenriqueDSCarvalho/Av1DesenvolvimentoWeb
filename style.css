@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div1{
+
+    background-image:url(sjpg.crdownload);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 100px;
+    
+    
+
+}
+.textoCentro{
+    padding: 50px ;
+}
+input{
+    padding: 5px 10px 5px 10px;
+}
+button{
+    background-color: rgb(0, 153, 255);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-radius: 1px;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(188, 207, 219);
+}
+
+.p{
+    padding-top: 200px;
+    padding-bottom: 1px;
+    text-align: bottom;
+    
+}
+.h3{
+    color: rgb(200, 207, 207);
+}
+
+.div2{
+    
+    padding: 100px;
+    background-color: white;
+    text-align: left;
+}
+.icon1{
+    position: relative;
+    left: 10px;
+}
+.icon2{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.icon3{
+    position: relative;
+    left: 400px;
+    bottom: 40px;
+}
+.icon4{
+    position: relative;
+    left: 400px;
+    bottom: 160px;
+}
+.icon5{
+    position: relative;
+    left: 800px;
+    bottom: 215px;
+}
+.icon6{
+    position: relative;
+    left: 800px;
+    bottom: 203px;
+
+}
+.h01{
+    text-align: left;
+}
+.h02{
+    text-align: center;
+}
+.h03{
+    text-align: right;
+
+}
+.titulo{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.parIcon1{
+    position: relative;
+    bottom: 305px;
+    left: 60px;
+
+}
+.parIcon2{
+    position: relative;
+    bottom: 260px;
+    left: 60px;
+
+}
+.parIcon3{
+    position: relative;
+    bottom: 340px;
+    left: 470px;
+    
+}
+.parIcon4{
+        position: relative;
+        bottom: 295px;
+        left: 470px;
+    
+}
+.parIcon5{
+    position: relative;
+    bottom: 380px;
+    left: 860px;
+    
+}
+.parIcon6{
+    position: relative;
+    bottom: 330px;
+    left: 860px;
+    
+}
+.div3{
+
+    padding: 100px;
+    background-color: rgb(200, 207, 207);
+}
+.titulodiv3{
+    position: relative;
+    top: 100px;
+
+}
+.pardiv3{
+    position: relative;
+    top: 150px;
+
+}
+.imagediv3{
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+}
+
+/**/
+.div4{
+    text-align: center;
+    padding: 300px;
+    background-color: white;
+}
+.titulodiv4{
+    position: relative;
+    left: 300px;
+    top: 125px;
+
+}
+.pardiv4{
+    position: relative;
+    left: 300px;
+    top: 175px;
+
+}
+video{
+    position: relative;
+    right: 325px;
+    bottom: 50px;
+    
+}
+
+/**/
+
+.div5{
+    text-align: center;
+    padding: 300px;
+    background-color: rgb(200, 207, 207);
+}
+.icon1div5{
+    position: relative;
+    right: 150px;
+    top: 20px;
+
+}
+.icon2div5{
+    position: relative;
+    right: 50px;
+    bottom: 34px;
+    
+}
+.icon3div5{
+    position: relative;
+    left: 50px;
+    bottom: 88px;
+    
+}
+.icon4div5{
+    position: relative;
+    left: 150px;
+    bottom: 142px;
+    
+}
+/**/
+.div6{
+    padding: 300px;
+    background-color: white;
+    text-align: center;
+}
+.h1div6{
+    padding: 10px;
+    position: relative;
+    bottom: 80px;
+
+}
+.pardiv6{
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+}
