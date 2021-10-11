@@ -1,224 +1,124 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+header {
+    background-image:url(header.jpeg);
+    background-size:111111px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+.logo{
+    height:80px;
+    border-radius:200px;
 }
 .div1{
-
-    background-image:url(sjpg.crdownload);
+    padding-top:10px; 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    padding: 100px;
-    
-    
-
+    font-size: medium; 
 }
-.textoCentro{
-    padding: 50px ;
+.text-header{
+    color:rgb(20, 15, 87);
 }
-input{
-    padding: 5px 10px 5px 10px;
+.login{
+    text-align: center;
 }
 button{
     background-color: rgb(0, 153, 255);
-    padding: 5px 10px 5px 10px;
     color: white;
-    border-radius: 1px;
     outline: none;
 }
 button:hover{
     background-color: rgb(188, 207, 219);
 }
-
+ a{
+    color:rgb(20, 15, 87);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
 .p{
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 1px;
-    text-align: bottom;
-    
+    text-align:center;
 }
 .h3{
     color: rgb(200, 207, 207);
 }
-
 .div2{
-    
-    padding: 100px;
+    text-align: center;
+}
+.coluna-div2{
+    display: flex;
+    justify-content:center; 
+}
+.coluna-left-div2{
+    margin-left:100px;
+}
+
+#div3{
     background-color: white;
-    text-align: left;
-}
-.icon1{
-    position: relative;
-    left: 10px;
-}
-.icon2{
-    position: relative;
-    left: 10px;
-    top: 10px;
-}
-.icon3{
-    position: relative;
-    left: 400px;
-    bottom: 40px;
-}
-.icon4{
-    position: relative;
-    left: 400px;
-    bottom: 160px;
-}
-.icon5{
-    position: relative;
-    left: 800px;
-    bottom: 215px;
-}
-.icon6{
-    position: relative;
-    left: 800px;
-    bottom: 203px;
-
-}
-.h01{
-    text-align: left;
-}
-.h02{
-    text-align: center;
-}
-.h03{
-    text-align: right;
-
-}
-.titulo{
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 50px;
-}
-.parIcon1{
-    position: relative;
-    bottom: 305px;
-    left: 60px;
-
-}
-.parIcon2{
-    position: relative;
-    bottom: 260px;
-    left: 60px;
-
-}
-.parIcon3{
-    position: relative;
-    bottom: 340px;
-    left: 470px;
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
     
 }
-.parIcon4{
-        position: relative;
-        bottom: 295px;
-        left: 470px;
-    
+.text_div3{
+    text-align:center;
+    margin-right: 100px;
+    margin-left:100px;
 }
-.parIcon5{
-    position: relative;
-    bottom: 380px;
-    left: 860px;
-    
-}
-.parIcon6{
-    position: relative;
-    bottom: 330px;
-    left: 860px;
-    
-}
-.div3{
-
-    padding: 100px;
-    background-color: rgb(200, 207, 207);
-}
-.titulodiv3{
-    position: relative;
-    top: 100px;
-
-}
-.pardiv3{
-    position: relative;
-    top: 150px;
-
-}
-.imagediv3{
-    position: relative;
-    left: 600px;
-    bottom: 50px;
+.img_div3{
+    margin-right: 250px;
 }
 
-/**/
+.img-img{
+    height:120%;
+    width:120%;
+}
+
 .div4{
     text-align: center;
-    padding: 300px;
     background-color: white;
+    padding-top:150px;
+    padding-bottom:100px;
+    display:flex;
+    justify-content:center;
 }
-.titulodiv4{
-    position: relative;
-    left: 300px;
-    top: 125px;
 
-}
 .pardiv4{
-    position: relative;
-    left: 300px;
-    top: 175px;
-
+    text-align:center;
+    margin-right: 100px;
+    margin-left:100px;
+}
+.video{
+    margin-right: 100px;
 }
 video{
-    position: relative;
-    right: 325px;
-    bottom: 50px;
-    
+    width: 450px;
 }
-
-/**/
 
 .div5{
     text-align: center;
-    padding: 300px;
-    background-color: rgb(200, 207, 207);
+    padding-top:50px;
 }
-.icon1div5{
-    position: relative;
-    right: 150px;
-    top: 20px;
-
+.img-icon-div5{
+    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 70px;
 }
-.icon2div5{
-    position: relative;
-    right: 50px;
-    bottom: 34px;
-    
-}
-.icon3div5{
-    position: relative;
-    left: 50px;
-    bottom: 88px;
-    
-}
-.icon4div5{
-    position: relative;
-    left: 150px;
-    bottom: 142px;
-    
-}
-/**/
-.div6{
-    padding: 300px;
+.contato{
+    padding: 100px;
     background-color: white;
     text-align: center;
 }
-.h1div6{
-    padding: 10px;
-    position: relative;
-    bottom: 80px;
 
+.logo-footer{
+    height: 57px;
 }
-.pardiv6{
-    padding: 10px;
-    position: relative;
-    bottom: 50px;
+.img-footer{
+    float:left; margin-left: 100px;
+}
+.copyrightfooter{
+    float:right;
+    width:240px;
+    margin-right: 50px;
+    font-family:Arial, Helvetica, sans-serif;
 }
